@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <?php
 
-$info = "Laravel è un framework open source di tipo MVC scritto in PHP per lo sviluppo di applicazioni web, creato nel 2011 da Taylor Otwell come derivazione di Symfony. "
-/*
-$array = array(
-    "sito" => "https://laravel.com/",
-    "foto" => "https://www.google.com/search?q=laravel&rlz=1C1ONGR_itIT993IT993&source=lnms&tbm=isch&sa=X&ved=2ahUKEwis4Zu7psL8AhVhSfEDHRoGAx4Q_AUoAnoECAEQBA&biw=1920&bih=937&dpr=1",,
-);
-*/
 ?>
 
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
@@ -26,11 +19,12 @@ $array = array(
                 background-color: #fff;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
-                font-weight: 200;
+                font-weight: 300;
                 font-size: 20px;
                 height: 100vh;
-                margin: auto;
+                margin: 0;
                 width: 90%;
+                margin: auto
             }
 
             .full-height {
@@ -59,50 +53,33 @@ $array = array(
 
             .title {
                 font-size: 84px;
-                font-weight: 200;
             }
 
             .links > a {
                 color: #636b6f;
                 padding: 0 25px;
-                font-size: 20px;
+                font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
+                text-decoration: none;
                 text-transform: uppercase;
-            }
-
-            a:hover{
-                color: rgb(33, 33, 33);
             }
 
             .m-b-md {
                 margin-bottom: 30px;
             }
 
-            div{
-                font-size: 25px;
-                margin-bottom: 25px
-             }
         </style>
     </head>
     <body>
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    Hello World questo è Laravel !
+                    Apple
                 </div>
-                <div>Ma cos'è Laravel?</div>
-                <div>{{ $info }}</div>
-                {{-- <ul>
-                    @foreach ($fruits as $item)
-                        <li>{{ $item }}</li>
-                    @endforeach
-                </ul> --}}
-                <div>Quali siti utilizzano questo Framework?</div>
-                <div class="links">
-                    <a href="http://127.0.0.1:8000/boolean" >Boolean</a>
-                    <a href="http://127.0.0.1:8000/youtube" >Youtube</a>
-                    <a href="http://127.0.0.1:8000/apple" >Apple</a>
+                <div>Ma cos'è Apple?</div>
+                <div>
+                    Apple Inc. è un'azienda multinazionale statunitense che produce sistemi operativi, smartphone, computer e dispositivi multimediali, con sede a Cupertino, in California. È considerata una delle società tecnologiche Big Tech, assieme ad: Amazon, Google, IBM e Meta.
                 </div>
             </div>
         </div>
